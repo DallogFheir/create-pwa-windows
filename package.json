@@ -1,0 +1,30 @@
+{
+  "name": "@dallog-fheir/create-pwa-windows",
+  "version": "1.0.0",
+  "description": "Fork of original @magento/create-pwa to make it work on Windows.",
+  "main": "./lib/index.js",
+  "bin": "./bin/create-pwa",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": "github:DallogFheir/create-pwa-windows",
+  "author": "DallogFheir",
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "bugs": {
+    "url": "https://github.com/DallogFheir/create-pwa-windows/issues"
+  },
+  "homepage": "https://github.com/DallogFheir/create-pwa-windows",
+  "dependencies": {
+    "@magento/pwa-buildpack": "~11.4.2",
+    "@magento/venia-concept": "~13.2.0",
+    "chalk": "^2.4.2",
+    "change-case": "^3.1.0",
+    "compression": "~1.7.4",
+    "execa": "^1.0.0",
+    "git-user-info": "^1.0.1",
+    "inquirer": "^8.2.0",
+    "is-valid-npm-name": "^0.0.4",
+    "node-fetch": "~2.6.1",
+    "webpack": "~4.46.0"
+  }
+}
